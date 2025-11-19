@@ -1,0 +1,78 @@
+.btnbtnlog {
+  border-radius: 6px;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #052659;
+  font-size: 20px;
+  background-color: #052659;
+}
+
+.btnbtnlog:hover {
+  background-color: white;
+  color: #052659;
+}
+.auth_topic {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.auth_box {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+.leftbox_auth {
+  flex: 1;
+}
+.rightbox_auth {
+  flex: 1;
+}
+.ful_log_div {
+  padding: 0 20%;
+}
+.auth_sub_box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  width: 1000px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #052659;
+  padding: 20px;
+}
+.frominput_auth {
+  width: 100%;
+  margin: 8px 0;
+  font-size: 20px;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+.form_lable_auth{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.noacc{
+    text-align: center;
+    margin: 8px 0;
+    color: #052659;
+    text-transform: capitalize;
+}
+.log_img_left{
+    border-radius: 8px;
+    width: 450px;
+}
+.reg_img_left{
+  border-radius: 8px;
+  width: 450px;
+  height: 60vh;
+}

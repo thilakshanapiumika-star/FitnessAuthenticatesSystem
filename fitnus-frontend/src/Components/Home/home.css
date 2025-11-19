@@ -1,0 +1,8 @@
+.bk_home_img {
+  background-image: url(../Home/img/bk.webp);
+  height: 92.6vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}

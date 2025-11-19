@@ -1,0 +1,77 @@
+/* Hide scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #052659; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #052659; /* Color of the scrollbar handle on hover */
+}
+.table_details_admin {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.table_details_admin .admin_tbl_th,
+.table_details_admin .admin_tbl_td {
+  border: 2px solid #052659;
+  padding: 8px;
+}
+
+.table_details_admin .admin_tbl_th {
+  background-color: #052659;
+  color: white;
+  font-size: 18px;
+}
+.table_main {
+  padding: 10px 10%;
+}
+.btnbtn {
+  border-radius: 6px;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #052659;
+  font-size: 20px;
+  background-color: #052659;
+  margin-right: 25px;
+}
+
+.btnbtn:hover {
+  background-color: white;
+  color: #052659;
+}
+.btnbtndlt {
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #c20202;
+  font-size: 20px;
+  background-color: #c20202;
+}
+
+.btnbtndlt:hover {
+  background-color: white;
+  color: #c20202;
+}
+.brnpdn_new{
+  padding: 25px 12%;
+}
